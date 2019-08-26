@@ -4,7 +4,7 @@
 
 **InstaSize is a program to add borders to your images to keep an Instagram feed with a "paper" effect on your images. All portrait images processed by the program have the same size of top/bottom borders and the landscapes have the same size of left/right borders to have uniform images. The processed images form squares.. If you want an airy feed, this app will save you !**
 ![Your beautiful Instagram feed after using InstaSize]
-(images/ig-feed.png)
+(https://github.com/Guezone/InstaSize/blob/master/images/ig-feed.png)
 
 ## Requirements 
 - Mac OS X 10.14 Mojave and earlier  
