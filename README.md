@@ -1,15 +1,21 @@
 # InstaSize 
 
-> Version 1.0 - Mac OS X application. Contact me with the coordinates at the bottom of the page to get the Mac OS X ".app" application !!
+> Version 1.0 - Python cross-platform application. Contact me with the coordinates at the bottom of the page to get the Mac OS X ".app" or Windows ".exe" application !!
  
 **InstaSize is a program to add borders to your images to keep an Instagram feed with a "paper" effect on your images. All portrait images processed by the program have the same size of top/bottom borders and the landscapes have the same size of left/right borders to have uniform images. The processed images form squares.. If you want an airy feed, this app will save you !**
 
 ![Your beautiful Instagram feed after using InstaSize](https://github.com/Guezone/InstaSize/blob/master/images/instasize-gui.png)
 
 ## Requirements 
-- Mac OS X 10.14 Mojave and earlier  
-- Python 3.7
+- Mac OS X 10.14 Mojave and earlier/ Windows 7 SP1 and earlier
+- Python 3.7.1 (except for executables)
+- Have tkinter for **GUI** and **PIL** for image processing (except for executables)
+To install these packages : 
+<blockquote><p>pip3 install tk</p></blockquote>
+<blockquote><p>pip3 install pillow</p></blockquote>
+
 ## Variable parameters 
+
 ### Border Size:
 In the addBorder () function, you can change the pixel size of the borders, here are the default values:
 - Portrait orientation (up / down borders): 230px
